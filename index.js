@@ -1,22 +1,15 @@
-// for(let a=0;a<document.querySelectorAll(".drum").length;a++)
-// {
-//     document.querySelectorAll(".drum")[a].addEventListener("click",function(){
-//         var audi= new Audio("/sounds/tom-"+String(a+1)+".mp3");
-//         audi.play();
-//     })
-// }
-
 var click=document.querySelectorAll(".drum")
 for(var a=0;a<click.length;a++)
 {
     document.querySelectorAll(".drum")[a].addEventListener("click",function(){
         makesound(this.innerHTML)
-        buttonAnimation(this);
+        buttonAnimation(this.innerHTML);
         
     })
 }
 document.addEventListener("keydown",function(event){
     makesound(event.key);
+    buttonAnimation(event.key)
 })
 function makesound(key){
     switch(key)
@@ -45,8 +38,9 @@ function makesound(key){
     }
 }
 function buttonAnimation(button){
-    button.classList.add("pressed")
+    var html=document.querySelector("."+button)
+    html.classList.add("pressed")
     setTimeout(function(){
-        button.classList.remove("pressed")
+        html.classList.remove("pressed")
     },100)
 }
