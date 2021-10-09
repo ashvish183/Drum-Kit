@@ -17,6 +17,7 @@ footer {
 }
 
 .w {
+<<<<<<< HEAD
 background-image:url("images/tom1.png") ;
 }
 
@@ -42,6 +43,33 @@ background-image:url("images/tom1.png") ;
 
 .l {
   background-image:url("images/tom7.png") ;
+=======
+background-image:url("https://ashvish183.github.io/drum-kit/images/tom1.png") ;
+}
+
+.a {
+  background-image:url("/root/images/tom2.png") ;
+}
+
+.s {
+  background-image:url("/images/tom3.PNG") ;
+}
+
+.d {
+  background-image:url("../images/tom4.PNG") ;
+}
+
+.j {
+  background-image:url("/blob/main/images/tom5.png") ;
+}
+
+.k {
+  background-image:url("../images/tom6.png") ;
+}
+
+.l {
+  background-image:url("/blob/main/images/tom7.PNG") ;
+>>>>>>> 1aa12e3bddd484cadd7cbd42aa931bd674422cdb
 }
 
 .set {
