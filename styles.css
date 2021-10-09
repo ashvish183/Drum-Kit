@@ -25,19 +25,19 @@ background-image:url("https://ashvish183.github.io/drum-kit/images/tom1.png") ;
 }
 
 .s {
-  background-image:url("/images/tom3.png") ;
+  background-image:url("/images/tom3.PNG") ;
 }
 
 .d {
-  background-image:url("/images/tom4.png") ;
+  background-image:url("../images/tom4.PNG") ;
 }
 
 .j {
-  background-image:url("/images/tom5.png") ;
+  background-image:url("images/tom5.PNG") ;
 }
 
 .k {
-  background-image:url("/images/tom6.png") ;
+  background-image:url("../images/tom6.png") ;
 }
 
 .l {
